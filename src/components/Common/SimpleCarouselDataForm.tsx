@@ -14,7 +14,6 @@ const SimpleCarouselDataForm: React.FC<IProps> = ({
   const [carouselIndex, setCarouselIndex] = useState<number>(0);
   const isLastIndex = carouselIndex === items.length - 1;
 
-  console.log("###@#");
   const contentItem = (item: any) => {
     return (
       <ContentWrapper>
