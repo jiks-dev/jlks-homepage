@@ -5,7 +5,6 @@ import TeamInfoPage from "components/routes/TeamInfoPage/TeamInfoPage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
-  console.log("###@@@#");
   return (
     <Router>
       <AppContainer>
